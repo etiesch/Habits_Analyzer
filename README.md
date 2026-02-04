@@ -161,10 +161,8 @@ Habits-Analyzer/
 ├── README.md                      # This file
 ├── Habits Analysis.ipynb          # Main analysis notebook
 ├── Checkmarks.csv                 # Input data (from uHabits app)
-├── requirements.txt               # Python dependencies
-└── Old/                           # Legacy analysis scripts
-    ├── analysis.R
-    └── Habits-Analyzer.Rmd
+└── requirements.txt               # Python dependencies
+
 ```
 
 ## Troubleshooting
@@ -176,25 +174,9 @@ Habits-Analyzer/
 | Plots not displaying | Use Jupyter notebook or VS Code with Jupyter support |
 | Data not loading | Check CSV file format and column names |
 
-## Contributing
-
-Contributions are welcome! Please feel free to:
-- Submit pull requests
-- Open issues for bugs and feature requests
-- Share suggestions for improvements
-
-## Future Enhancements
-
-- [ ] Interactive web dashboard (Streamlit/Dash)
-- [ ] Goal-setting and achievement tracking
-- [ ] Machine learning predictions
-- [ ] Real-time mobile sync
-- [ ] Multi-user support
-
-## License
 
 This project is open source and available under the MIT License.
 
 ---
 
-**Note**: This project is designed for personal habit tracking. Ensure you have permission to export and analyze your own data.
+**Note**: This project is designed for personal habit tracking. Ensure you have permission to export and analyze your own data. The data provided in Checkmarks.csv are randomized.
